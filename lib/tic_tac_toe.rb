@@ -77,7 +77,9 @@ class TicTacToe
   end
   
   
-
+  def won?
+    WIN_COMBINATIONS.find do |winner|
+      if 
   
   
   
