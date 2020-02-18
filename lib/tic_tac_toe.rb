@@ -112,10 +112,12 @@ end
 
 def play
   
-  if !full?
-    turn
-    els
+  while over? == false
+  turn
+end
 
+if won?
+  
 
 
   
