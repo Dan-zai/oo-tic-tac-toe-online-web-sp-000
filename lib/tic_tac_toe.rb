@@ -97,7 +97,9 @@ def full?
 
 def draw
   full? && !won?
-  tr
+end
+
+
   
   
 end 
