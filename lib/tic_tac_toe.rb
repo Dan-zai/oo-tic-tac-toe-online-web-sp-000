@@ -110,6 +110,13 @@ def winner
   end 
 end
 
+def play
+  
+  if !full?
+    turn
+    els
+
+
 
   
 end 
