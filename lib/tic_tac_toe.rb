@@ -66,7 +66,8 @@ class TicTacToe
     turn_counter
   end 
   
-  
+  def current_player(index)
+    
   
   
   
