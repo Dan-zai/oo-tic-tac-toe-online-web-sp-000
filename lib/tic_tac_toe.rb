@@ -93,7 +93,8 @@ def full?
     false
   else
     true
-  end 
+  end
+end
 
 def draw
   full? && !won?
