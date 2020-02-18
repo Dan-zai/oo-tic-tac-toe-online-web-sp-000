@@ -41,7 +41,7 @@ class TicTacToe
   end 
   
   def valid_move?(index)
-    index.between?(0,8) && position_taken?(index) == false
+    index.between?(0,8) && !position_taken?(index)
   end
   
   def turn
@@ -66,14 +66,7 @@ class TicTacToe
     turn_counter
   end 
   
-  def current_player
-    if turn_count.even?
-      "X"
-    else
-      "O"
-    end 
-  end
-  
+
   
   
   
