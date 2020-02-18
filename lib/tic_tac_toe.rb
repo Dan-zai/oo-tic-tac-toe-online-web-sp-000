@@ -56,7 +56,9 @@ class TicTacToe
     end 
   end 
   
-  
+  def turn_count
+    @board.each do |player_input|
+      if 
   
   
   
