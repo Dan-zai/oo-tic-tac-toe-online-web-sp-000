@@ -96,11 +96,8 @@ def full?
   end 
 
 def draw
-  if board.include?("") && 
-    false
-  else
-    true
-  end 
+  full? && !won?
+  tr
   
   
 end 
