@@ -61,7 +61,12 @@ class TicTacToe
     @board.each do |player_input|
       if player_input == "X" || player_input == "0"
         turn += 1
-        
+      end
+    end
+    turn
+  end 
+  
+  
   
   
   
