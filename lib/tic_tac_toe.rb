@@ -56,14 +56,14 @@ class TicTacToe
     end 
   end 
   
-  def turn_count
-    turn = 0
+  def turn_count(index)
+    turn_counter = 0
     @board.each do |player_input|
       if player_input == "X" || player_input == "0"
-        turn += 1
+        turn_counter += 1
       end
     end
-    turn
+    turn_counter
   end 
   
   
