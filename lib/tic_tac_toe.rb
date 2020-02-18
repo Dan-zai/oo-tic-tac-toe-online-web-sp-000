@@ -86,6 +86,7 @@ class TicTacToe
       return winner
     end 
   end
+end
   
   
   
