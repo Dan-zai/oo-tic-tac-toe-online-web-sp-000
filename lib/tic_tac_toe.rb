@@ -83,6 +83,7 @@ class TicTacToe
         return winner
       elsif
       (@board[winner[0]]) == "O" && (@board[winner[1]]) == "O" && (@board[winner[2]]) == "O"
+      return winner
     end 
   end
 end
