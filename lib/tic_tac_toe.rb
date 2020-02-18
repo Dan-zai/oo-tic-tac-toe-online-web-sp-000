@@ -99,7 +99,11 @@ def draw
   full? && !won?
 end
 
+def over?
+  draw? || won? 
+end
 
+def winner
   
   
 end 
