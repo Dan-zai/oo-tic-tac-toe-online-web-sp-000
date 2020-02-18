@@ -79,7 +79,7 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.find do |winner|
-      if (@board|winner|[0]) == "X" && (@board|winner|[1]) == "X" && (@board|winner|[0]) == "X"
+      if (@board|winner|[0]) == (@board|winner|[1]) && (@board|winner|[1]) == (@board|winner|[2]) && (@board|winner|[2]) == 
   
   
   
